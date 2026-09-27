@@ -1,4 +1,3 @@
-# BGR_sky130
 This github repository is for the design of a Band Gap Reference Circuit (BGR) using Google-skywater130nm technology PDK.
 
 ## Introduction to BGR
