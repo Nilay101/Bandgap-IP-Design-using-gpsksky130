@@ -360,7 +360,7 @@ After simulation we can get a wavefrom like below, and from the wavefrom we can 
 
 In this simulation we will check the CTAT voltage across the 8 parallel connected BJTs.
 <p align="center">
-  <img src="Images/prelayout/ctat_mul_bjt.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/1620bcbe67bce9adecb3a4df3ba37fd21a756090/Images/Multiple_bjt.png">
 </p>
 
 As we can see the slope is increasing in case of multiple BJTs.
@@ -369,7 +369,7 @@ As we can see the slope is increasing in case of multiple BJTs.
 
 In this simulation we will check the CTAT voltage dependancy on current.
 <p align="center">
-  <img src="Images/prelayout/ctat_cur.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/1620bcbe67bce9adecb3a4df3ba37fd21a756090/Images/var_voltage.png">
 </p>
 
 We can find that the voltage is decreasing with decrease in current value.
@@ -379,9 +379,7 @@ We can find that the voltage is decreasing with decrease in current value.
 **PTAT Voltage generation with ideal current source** [netlist](/prelayout/ptat_voltage_gen_ideal_current_source.sp)
 
 In this simulation we will take one ideal current source and will connect it to 5K Ohm resistance and 8 parallel BJTs. From this we will find the voltgae difference between the two terminals of the resistnce, which will give us a slightly PTAT voltage.
-<p align="center">
-  <img src="Images/prelayout/ptat_cir.png">
-</p>
+
 
 We can find that the voltage V(ra1)-V(qp2) is increasing with temp. which is the desired PTAT voltage.
 
@@ -389,7 +387,7 @@ We can find that the voltage V(ra1)-V(qp2) is increasing with temp. which is the
 
 In this simulation we will check the amplified PTAT voltage using one VCVS.
 <p align="center">
-  <img src="Images/prelayout/ptat_vcvs.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/5614b03f257285a1188c2c1d1ff0277bdc4ab5d7/Images/ptat_vcvs.png">
 </p>
 
 
@@ -399,19 +397,19 @@ We know that resistor also behaves as PTAT, i.e the voltage across the resistor 
 
 In this simulation we will check the tempco. of resistor using ideal current source of 10uA. [netlist](/prelayout/res_tempco.sp)
 <p align="center">
-  <img src="Images/prelayout/res_tempco_v.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/df7103d9818257f683eaf3e84bc282999bd736be/Images/res_temco.png">
 </p>
 
 From the above curve we can find that the Voltage across the resistnace is increasing with increase in temp., i.e. the PTAT nature.
 
 Now to find the temco. we have to find the change in resistance w.r.t temp. The tempco. can be found from the slope of the following curve.
 <p align="center">
-  <img src="Images/prelayout/res_tempco.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/df7103d9818257f683eaf3e84bc282999bd736be/Images/res_tempco.png">
 </p>
 
 Also we can find the PTAT voltages across the resistance for different current values from the following curve. [netlist](prelayout/res_tempco_var_current.sp)
 <p align="center">
-  <img src="Images/prelayout/res_tempco_var_i.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/7067682381e07ea6b4a262139a01c73608469347/Images/res_tempco_vari.png">
 </p>
 
 #### 3.4.4 BGR using Ideal OpAmp
@@ -420,7 +418,7 @@ Now after simulating all our components, let's quick check our BGR behaviour usi
 
 In this simulation we should get the reference voltgae as an umbrella shaped curve and it should be ~1.2V.
 <p align="center">
-  <img src="Images/prelayout/ideal_bgr.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/7067682381e07ea6b4a262139a01c73608469347/Images/ideal%20opamp%202.png">
 </p>
 
 #### 3.4.5 BGR with SBCM
@@ -429,21 +427,21 @@ Now we will replace the ideal Op-Amp with self-biased current mirror which is ou
 
 - Behaviour in TT corner [netlsit](/prelayout/bgr_lvt_rpolyh_3p40.sp)
 <p align="center">
-  <img src="Images/prelayout/bgr_tt.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/7067682381e07ea6b4a262139a01c73608469347/Images/testbench_1(3)%20.png">
 </p>
 
 Tempco. Of Vref = ~21.7 PPM
 
 - Behaviour in FF corner [netlist](/prelayout/bgr_lvt_rpolyh_3p40_ff.sp)
 <p align="center">
-  <img src="Images/prelayout/bgr_ff.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/7067682381e07ea6b4a262139a01c73608469347/Images/testbench_3(3).png">
 </p>
 
 Tempco. Of Vref = ~10 PPM
 
 - Behaviour in SS corner [netlist](/prelayout/bgr_lvt_rpolyh_3p40_ss.sp)
 <p align="center">
-  <img src="Images/prelayout/bgr_ss.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/7067682381e07ea6b4a262139a01c73608469347/Images/testbench_2(3).png">
 </p>
 
 Tempco. Of Vref = ~45 PPM
@@ -525,28 +523,28 @@ In our design we have used two different size nfets:
 2. W=1 L=7 [mag file](/layout/nfet1.mag)
 
 <p align="center">
-  <img src="Images/layout/nfet1.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/32fbfd4ed14ff8d697b9d956dd098340e1495500/Images/2-56.png">
 </p>
 
 #### 4.2.2 Design of PFET
 In our circuit we are using LVT type PFETs. So we have to draw our PFET using all valid layers for lvt pfet. In our design we have one size pfet i.e W=5 L=2 [mag file](/layout/pfet.mag)
 
 <p align="center">
-  <img src="Images/layout/pfet.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/32fbfd4ed14ff8d697b9d956dd098340e1495500/Images/2-60.png">
 </p>
 
 #### 4.2.3 Design of Resistor
 In our desing we are using poly resistors of W=1.41 and L=7.8. So we have to create the magic file choosing the appropriate layers for the Resistor. [mag file](/layout/res1p41.mag)
 
 <p align="center">
-  <img src="Images/layout/res1p41.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/32fbfd4ed14ff8d697b9d956dd098340e1495500/Images/2-54.png">
 </p>
 
 #### 4.2.4 Dessing of PNP (BJT)
 In our design we are using PNP having emitter 3.41 * 3.41 uM.So we can use the valid layers to design our PNP. [mag file](/layout/pnpt1.mag)
 
 <p align="center">
-  <img src="Images/layout/pnpt1.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/32fbfd4ed14ff8d697b9d956dd098340e1495500/Images/2-55.png">
 </p>
 
 ### 4.3 Blocks Design
@@ -562,31 +560,31 @@ We have created a layout by putting all the nfets in one region. We have placed 
 We have created a PFETs block by putting all the pfets together, with matching arrangement, also added the guardring. [mag file](/layout/pfets.mag)
 
 <p align="center">
-  <img src="Images/layout/pfets.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/32fbfd4ed14ff8d697b9d956dd098340e1495500/Images/2-61.png">
 </p>
 
 #### 4.3.3 Design of RESBANK
 We have cretaed the layout of the RESBANK by putting all resistors together, with proper matching arrangemment and soe extra dummies and a guardring. [mag file](/layout/resbank.mag)
 <p align="center">
-  <img src="Images/layout/resbank.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/32fbfd4ed14ff8d697b9d956dd098340e1495500/Images/2-59.png">
 </p>
 
 #### 4.3.4 Design of PNP10
 We have created the layout by putting all the PNPs together, with appropriate matching, and used dummies to enhance noise performance. [mag file](/layout/pnp10.mag)
 <p align="center">
-  <img src="Images/layout/pnp10.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/32fbfd4ed14ff8d697b9d956dd098340e1495500/Images/2-62.png">
 </p>
 
 #### 4.3.5 Design of STARTERNFET
 We placed the the two w=1, l=7 NFETs together with a guardring to desingn the STATRTERNFET. [mag file](/layout/starternfet.mag)
 <p align="center">
-  <img src="Images/layout/starternfet.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/32fbfd4ed14ff8d697b9d956dd098340e1495500/Images/2-63.png">
 </p>
 
 ## 4.4 Top level design
 To obtain the top level design, we have placed all the blocks together, routed it. [mag file](/layout/top.mag)
 <p align="center">
-  <img src="Images/layout/top.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/32fbfd4ed14ff8d697b9d956dd098340e1495500/Images/2-64.png">
 </p>
 
 
