@@ -517,13 +517,13 @@ In our design we have used two different size nfets:
 1. W=5 L=1 [mag file](/layout/nfet.mag)
 
 <p align="center">
-  <img src="Images/layout/nfet.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/32fbfd4ed14ff8d697b9d956dd098340e1495500/Images/2-56.png">
 </p>
 
 2. W=1 L=7 [mag file](/layout/nfet1.mag)
 
 <p align="center">
-  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/32fbfd4ed14ff8d697b9d956dd098340e1495500/Images/2-56.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/17db70c71a96ed428af1f7001ab41663ee7b67f8/Images/2-57.png">
 </p>
 
 #### 4.2.2 Design of PFET
