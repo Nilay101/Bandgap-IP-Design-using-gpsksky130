@@ -353,7 +353,7 @@ $ ngspice ctat_voltage_gen.sp
 
 After simulation we can get a wavefrom like below, and from the wavefrom we can see the CTAT behaviour of the BJT, and can find the slope.
 <p align="center">
-  <img src="Images/prelayout/ctat@2v.PNG">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/02182725dffc4b0e1948458624780227f3e42e96/Images/ctat%20voltage%20gen.png">
 </p>
 
 **CTAT Voltage generation with Multiple BJT** [netlist](/prelayout/ctat_voltage_gen_mul_bjt.sp)
