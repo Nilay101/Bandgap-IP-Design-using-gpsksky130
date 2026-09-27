@@ -553,14 +553,14 @@ In our design we are using PNP having emitter 3.41 * 3.41 uM.So we can use the v
 We have created a layout by putting all the nfets in one region. We have placed the nfets in such a way that it follows common centroid matching. Also used some dummies to avoid Diffusion break and for better matching and noise protection. Also added one guard ring for enhance performance. [mag file](/layout/nfets.mag)
 
 <p align="center">
-  <img src="Images/layout/nets.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/32fbfd4ed14ff8d697b9d956dd098340e1495500/Images/2-61.png">
 </p>
 
 #### 4.3.2 Design of PFETs
 We have created a PFETs block by putting all the pfets together, with matching arrangement, also added the guardring. [mag file](/layout/pfets.mag)
 
 <p align="center">
-  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/32fbfd4ed14ff8d697b9d956dd098340e1495500/Images/2-61.png">
+  <img src="https://github.com/Nilay101/Bandgap-IP-Design-using-gpsksky130/blob/bc4b4823ac820d4e83582c31c8c1b2439f680dc8/Images/2-58.png">
 </p>
 
 #### 4.3.3 Design of RESBANK
