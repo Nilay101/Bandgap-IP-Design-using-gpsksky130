@@ -34,16 +34,16 @@ The Bandgap Reference (BGR) is a circuit which provides a stable voltage output 
 
 
 ## Contents
-- [1. Tool and PDK Setup](#1-Tools-and-PDK-setup)
-  - [1.1 Tools Setup](#1.1-Tools-setup)
-  - [1.2 PDK Setup](#1.2-PDK-setup)
-- [2. BGR introduction](#2-BGR-introduction)
-  - [2.1 BGR Principle](#2.1-BGR-Principle)
-  - [2.2 Types of BGR](#2.2-Types-of-BGR)
-  - [2.3 Self-biased Current Mirror based BGR](#2.3-Self-biased-current-mirror-based-bgr)
-- [3. Design and Prelayout Simulation](#3-Design-and-Prelayout-Simulation)
-- [Layout Design](#Layout-design)
-- [LVS and Post-layout Simulation](#LVS-and-post-layout-simulation)
+- [1. Tool and PDK Setup]
+  - [1.1 Tools Setup]
+  - [1.2 PDK Setup]
+- [2. BGR introduction]
+  - [2.1 BGR Principle]
+  - [2.2 Types of BGR]
+  - [2.3 Self-biased Current Mirror based BGR]
+- [3. Design and Prelayout Simulation]
+- [Layout Design]
+- [LVS and Post-layout Simulation]
 
 
 ## 1. Tools and PDK setup
