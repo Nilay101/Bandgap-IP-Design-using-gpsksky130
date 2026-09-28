@@ -589,8 +589,6 @@ To obtain the top level design, we have placed all the blocks together, routed i
 
 
 ## Author
-
-Designed by [Subham Rath](https://in.linkedin.com/in/srath01) under the guidance of Prof. [Santunu Sarangi](https://in.linkedin.com/in/santunu-sarangi-b731305b) and Prof. [Saroj Rout](https://www.linkedin.com/in/sroutk/) in collaboration with [VSD](https://www.vlsisystemdesign.com/)
 - [Santunu Sarangi](https://www.linkedin.com/in/santunu-sarangi-b731305b)
 - [Saroj Rout](https://www.linkedin.com/in/sroutk/)
 - [Kunal Ghosh](https://github.com/kunalg123)
